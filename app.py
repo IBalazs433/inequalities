@@ -256,13 +256,13 @@ with col_input:
 
     c6, c7 = st.columns(2)
     with c6:
-        shade_color = st.color_picker("Shading color", value="#1f77b4")
+        shade_color = st.color_picker("Shading color", value="#e60101")
     with c7:
-        line_color = st.color_picker("Lines color", value="#d62728")
+        line_color = st.color_picker("Lines color", value="#1445e9")
 
     alpha = st.slider("Individual region opacity", 0.0, 1.0, 0.15, 0.05)
     intersection_alpha = st.slider(
-        "Feasible region opacity", 0.0, 1.0, 0.45, 0.05
+        "Feasible region opacity", 0.0, 1.0, 0.8, 0.05
     )
 
 with col_plot:
